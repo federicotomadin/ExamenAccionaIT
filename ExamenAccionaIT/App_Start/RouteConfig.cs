@@ -18,8 +18,8 @@ namespace ExamenAccionaIT
                 url: "{controller}/{action}",
                 defaults: new
                 {
-                    controller = "Home",
-                    action = "Login"
+                    controller = "AccionaIT"
+                   
                 }
             );     
                 routes.MapRoute(
@@ -27,8 +27,8 @@ namespace ExamenAccionaIT
                 url: "{controller}/{action}",
                 defaults: new
                 {
-                    controller = "Home",
-                    action = "NombreProvincias"
+                    controller = "AccionaIT"
+                  
                 }
             );
         }
